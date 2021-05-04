@@ -24,8 +24,8 @@ And here is a mermaid chart using `mermaid`:
 
 ```mermaid
 pie
-"red: 0.3
-blue: 0.6
-yellow: 0.1
+"red": 0.3
+"blue": 0.6
+"yellow": 0.1
 ```
 
