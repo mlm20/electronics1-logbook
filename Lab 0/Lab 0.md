@@ -19,5 +19,5 @@ Subsequently, I followed the Lab 0 guide on setting up the signal generator and 
 
 Here is an image of my board with all the steps finished. The board was tested with a micro-USB cable and functioned as expected.
 
-![](C:\Users\MaxLM\OneDrive\Documents\University\DE1\Electronics 1\electronics1-logbook\Lab 0\board.jpg)
+![](.\board.jpg)
 
