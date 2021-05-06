@@ -8,3 +8,5 @@ The `.md`  files are made to be read using Typora (https://typora.io/), a markdo
 
 Please use the `.html` files instead
 
+<img src="C:\Users\MaxLM\OneDrive\Desktop\error1.jpg" style="zoom:150%;" />
+
