@@ -6,5 +6,5 @@ The `.md`  files are made to be read using Typora (https://typora.io/), a markdo
 
 
 
->  Please use the `.html` files instead
+Please use the `.html` files instead
 
