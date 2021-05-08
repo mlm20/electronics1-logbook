@@ -8,3 +8,7 @@ This is my logbook for the laboratory tasks conducted for the DE1 Electronics 1 
 
 [**Lab 1**: Signals and Scope](./Lab 1.html)
 
+---
+
+Link to repository: [https://github.com/mlm20/electronics1-logbook](https://github.com/mlm20/electronics1-logbook)
+
