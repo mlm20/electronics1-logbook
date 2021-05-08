@@ -6,7 +6,7 @@
 
 By following the instructions, I tried out using the different signal settings. Initially this did not work - I was unable to switch from the sine wave signal option, subsequently I realised that I had a wire wrong which I fixed, allowing me to test out the options.
 
-<img src="./board_screen.jpg" style="zoom: 25%;" />
+<img src="./media/board_screen.jpg" style="zoom: 25%;" />
 
 ## Task 2 - Setting up the oscilloscope
 
@@ -24,7 +24,7 @@ As the ADJ knob is turned after pressing the `V/DIV` button twice the waveform i
 
 The `SEC/DIV` button exercise was completed. When the timescale is slower than 20ms per division the wave is unable to be properly triggered and displayed causing strange  visual effects.
 
-![](./strange.jpg)
+![](./media/strange.jpg)
 
 After pressing the `SEC/DIV` button a second time, the waveform is able to be adjusted along the x (time) axis, allowing it to be aligned with the grid for accurate measurements.
 
