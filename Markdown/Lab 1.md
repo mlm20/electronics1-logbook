@@ -38,7 +38,7 @@ When the trigger edge is changed, the waveform is shifted by $\pi$ radians. Chan
 
 ## Task 6 - Measure DC Voltage
 
-After setting the signal generator to output a 2.5 V DC current, the multimeter read 2.42 V whereas the oscilloscope read ~0.2 V.
+After setting the signal generator to output a 2.5 V DC current, the multimeter read 2.42 V whereas the oscilloscope read ~~~0.2 V.~~ 2.6 V.
 
 For DC voltage calibration I got the following values:
 
@@ -56,15 +56,15 @@ For DC voltage calibration I got the following values:
 After setting up the sine wave on the signal generator as set out by the instructions, I made the following measurements:
 $$
 \begin{align}
-V_{max}&=250\ mV\\
-V_{min}&=125\ mV\\
-T&=1\ ms\\
-f&=1\ kHz
+V_{max}&=\cancel{250\ mV}\ \ 2.51 \ V\\
+V_{min}&=\cancel{125\ mV}\ \ 1\ V\\
+T&=\cancel{1\ ms}\ \ 0.4\ ms\\
+f&=\cancel{1\ kHz}\ \ 2.5\ kHz
 \end{align}
 $$
-The multimeter measured a DC voltage of 1.63 V and an AC voltage of 0.25 V. These values are both much lower than those read off the oscilloscope (similar to what was found in task 6) and the DC voltage was much higher than the AC one such takes into account the fluctuations.
+The multimeter measured a DC voltage of 1.63 V and an AC voltage of 0.25 V. These values are ~~both much lower than those~~ similar to read off the oscilloscope ~~(similar to what was found in task 6)~~ and the DC voltage was much higher than the AC one such takes into account the fluctuations.
 
-For a SIG_GEN frequency of 100 kHz, the oscilloscope measurements were the same apart from the frequency which was now also 100 kHz. The voltage measurements on the multimeter remained the same.
+For a SIG_GEN frequency of 100 kHz, the oscilloscope measurements were the same apart from the frequency which was now also 100 kHz. The voltage measurements on the multimeter remained the same. However the waveform moved a lot on the oscilloscope screen so was difficult to measure.
 
 ## Task 8 - Measure PWM signal
 
@@ -76,7 +76,9 @@ The DC voltage is 1.3 V, the AC voltage is 1.89 V. The DC measurement takes the 
 
 ## Task 9 - Measure Exponential signal
 
-==n/a==
+The time constant is defined as the time that the exponentially decaying signal takes to decay by a factor of $\frac{1}{e}$ . So you would measure the amount of time (on the oscilloscope) the signal takes to reach 36.8 % of its original voltage.
+
+Other frequencies and time constants result in simple transformations of the original waveform.
 
 ## Task 10 - UART Signal
 
@@ -88,13 +90,21 @@ Under odd and no parity, the signal behaviour remains the same.
 
 The characteristics of the various test signals I observed/calculated are shown below:
 
-| Test Signal # | Characteristics                         |
-| ------------- | --------------------------------------- |
-| 1             | DC current of 1.21 V                    |
-| 2             | Sine wave signal of frequency 25.4 kHz, |
-| 3             |                                         |
-| 4             |                                         |
-| 5             |                                         |
+| Test Signal # | Characteristics                                              |
+| ------------- | ------------------------------------------------------------ |
+| 1             | DC current of 1.21 V                                         |
+| 2             | Sine wave signal of frequency 25.4 kHz, 0.4 V pk-pk, with an offset of 1.1 V |
+| 3             | Clock signal of frequency 149 Hz                             |
+| 4             | PWM signal of frequency                                      |
+| 5             | UART signal **                                               |
+
+## Note
+
+In places above where I crossed out (voltage) values e.g ~~0.2 V~~ , it is due to the oscilloscope measuring device being set to x10 rather than x1 measurements originally, which caused inaccuracies in my results.
+
+
+
+
 
 [Homepage](./index.html)
 
