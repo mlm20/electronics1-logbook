@@ -10,6 +10,12 @@ This is my logbook for the laboratory tasks conducted for the DE1 Electronics 1 
 
 [**Lab 2**: Electronic Circuits](./Lab 2.html)
 
+[**Lab 3**: Operational Amplifiers](./Lab 3.html)
+
+[**Lab 4a**: Setting Up Micro Python](./Lab 4a.html)
+
+[**Lab 4b**: ESP32, Sensors, Drivers](./Lab 4b.html)
+
 ---
 
 Link to repository: [https://github.com/mlm20/electronics1-logbook](https://github.com/mlm20/electronics1-logbook)
