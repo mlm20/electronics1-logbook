@@ -1,6 +1,6 @@
 # Lab 1 - Signals and Scope
 
-[Homepage](./index.html)
+[**Homepage**](./index.html)
 
 ## Task 1 - Learning to control the signal generator
 
@@ -102,9 +102,5 @@ The characteristics of the various test signals I observed/calculated are shown 
 
 In places above where I crossed out (voltage) values e.g ~~0.2 V~~ , it is due to the oscilloscope measuring device being set to x10 rather than x1 measurements originally, which caused inaccuracies in my results.
 
-
-
-
-
-[Homepage](./index.html)
+[**Homepage**](./index.html)
 
