@@ -1,5 +1,7 @@
 # Challenge 2: Traffic Light
 
+**[Homepage](./index.html)**
+
 I completed the second challenge (traffic light) using the following code:
 
 ```python
@@ -47,4 +49,6 @@ while True:
 ![](./media/Scan - 2021-06-17 12_17_22.jpeg)
 
 ![](./media/Scan - 2021-06-17 12_17_36.jpeg)
+
+**[Homepage](./index.html)**
 

@@ -16,7 +16,7 @@ This is my logbook for the laboratory tasks conducted for the DE1 Electronics 1 
 
 [**Lab 4b**: ESP32, Sensors, Drivers](./Lab 4b.html)
 
-[**Challenge 2: Traffic Light**](./Traffic Light.html)
+[**Challenge 2**: Traffic Light](./Traffic Light.html)
 
 ---
 
