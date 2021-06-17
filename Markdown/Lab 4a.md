@@ -10,7 +10,13 @@ The ESP32 device was flashed with micropython as per the instructions.
 
 ### Step 3
 
-![](./media/light on.jpg)
+```python
+from machine import Pin
+LED = Pin(25, Pin.OUT)
+LED.on()
+```
+
+
 
 ![](./media/pic10.jpg)
 
@@ -24,7 +30,17 @@ The code was written as per the instructions and the light blinked as expected
 
 The uPy classes and functions were explored. I completed the mini challenge, using PWM to change the brightness of the LED. The brightness changed when I changed the value of `duty_cycle`
 
-![](./media/code2.jpg)
+```python
+import machine
+from machine import Pin, PWM
+
+frequency = 5000
+duty_cycle = 1023 # 0 - 1023 || 1023 = 100%
+
+led = PWM(Pin(25, Pin.OUT), frequency)
+
+led.duty(duty_cycle)
+```
 
 ![](./media/pic10.jpg)
 
@@ -42,5 +58,5 @@ The uPy files were recreated in Mu and flashed across to ESP32. The screen displ
 
 <img src="./media/Scan - 2021-06-16 13_05_21.jpeg" style="zoom: 25%;" />
 
-[Homepage](./index.html)
+**[Homepage](./index.html)**
 

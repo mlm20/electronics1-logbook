@@ -2,7 +2,7 @@
 
 **[Homepage](./index.html)**
 
-I completed the second challenge (traffic light) using the following code:
+I completed the second challenge (traffic light) using the following code
 
 ```python
 # Challenge 2 - Traffic Light
@@ -43,8 +43,6 @@ while True:
     if button.value() == 0:
         traffic_sequence()
 ```
-
-
 
 ![](./media/Scan - 2021-06-17 12_17_22.jpeg)
 
