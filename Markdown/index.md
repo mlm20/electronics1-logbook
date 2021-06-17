@@ -18,6 +18,8 @@ This is my logbook for the laboratory tasks conducted for the DE1 Electronics 1 
 
 [**Challenge 2**: Traffic Light](./Traffic Light.html)
 
+[**Challenge 3**: DC Motor Controller](./DC Motor Controller.html)
+
 ---
 
 Link to repository: [https://github.com/mlm20/electronics1-logbook](https://github.com/mlm20/electronics1-logbook)
