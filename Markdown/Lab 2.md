@@ -26,6 +26,8 @@ In order to achieve the correct output voltages for task 2, the following voltag
 | 1.0 V            | 0.97            |
 | 0.5 V            | 0.43            |
 
+![](./media/pic6.jpg)
+
 ## Task 2 - Finding the source resistance of SIG_GEN
 
 | V (measured) | Vs Setting | 10k  | 1k   | 100  | 69   |
@@ -60,17 +62,23 @@ Then, completing the second table for $R_L=69\ \Omega$  only,
 
 ## Task 4 - Thévenin's Equivalent Network
 
-==n/a==
+$V_{th}$ was deduced to be 2.06V via standard calculations. 
+
+==complete==
 
 ## Task 5 - Complex Resistor Network (R-2R ladder network)
 
 The ladder network was set up as per the diagram. The 20k resistor was approximated with a 15k, 4.7k and 300 Ohm resistors in series (20 030 Ohms).
+
+<img src="./media/pic3.jpg" style="zoom:20%;" />
 
 When measured, V1 = 0.98 V, V2 = 0.48 V. These line up with my predictions.
 
 When the additional resister was added, V3 = 0.29 V. The pattern was that the voltage kept (roughly) dividing in half at each node.
 
 ## Task 6 - Driving a Light Emitting Diode
+
+![](./media/pic10.jpg)
 
 The LED first lights up at 2.42 V.
 
@@ -87,6 +95,8 @@ The frequency of the PWM signal has no influence on the LED brightness. This sug
 ## Task 7 - RC circuit and exponential signal
 
 After setting up the circuit as instructed, a zig-zag waveform was observed on the scope. It has a period of 36 ms, frequency of 27.8 Hz.
+
+![](./media/pic2.jpg)
 
 Theoretically $\tau=RC \implies \tau = 10k\times0.01\mu=0.1ms$ 
 

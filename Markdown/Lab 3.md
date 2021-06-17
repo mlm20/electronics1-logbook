@@ -14,13 +14,17 @@ The peak to peak voltage is reduced as there is a fixed output voltage and the r
 
 The chip and decoupling capacitor were installed on the breadboard as shown in the photo.
 
+![](./media/pic4.jpg)
+
 The unity gain non-inverting buffer was set up as shown below. When the 220 Ohm resistor was tested, the peak-to-peak voltage was no longer reduced by the resistor.
+
+![](./media/pic5.jpg)
 
 ==Explain why==
 
 ## Task 3 - Amplification X2 Failure
 
-==show that explected gain is x2==
+==show that expected gain is x2==
 
 The circuit was assembled as per the instructions. Vmax was measured to be 0.75V, Vmin was measured to be -1.11V.
 
