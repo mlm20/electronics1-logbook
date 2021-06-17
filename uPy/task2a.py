@@ -1,5 +1,6 @@
 # uses the switch to turn on and off the rLED
 from machine import Pin
+import time
 
 rLED = Pin(33, Pin.OUT)
 button = Pin(22, Pin.IN, Pin.PULL_UP)
